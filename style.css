@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.leaf{
+    font-weight:400;
+    font-family:"Aladin",system-ui;
+ color:#020D19;
+ font-size: 25px;
+ padding-left: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+ height: 25px;
+ width: 28px;
+}
+
+
+.imgContainer img{
+    height: 250px;
+    object-fit: contain;
+}
+.create{
+    font-family: "Poppins", sans-serif;
+    font-weight:600;
+    
+}
+.formContainer{
+    width:100%;
+    display: contents;
+}
+form label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+form input{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    border-radius: 22px;
+ padding: 8px 18px;
+  border: 1px solid #4d4d4e;
+  outline: none;
+margin-top: 6px;
+margin-bottom: 8px;
+}
+.Name{
+    background-image:url(./Assets/user.png);
+}
+.Email{
+    background-image:url(./Assets/mail-02.png)
+}
+.password{
+    background-image:url(./Assets/lock.png);
+}
+.input{
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    background-position: 10px center; 
+    padding-left: 35px; 
+    padding-right: 55px;
+}
+
+.signUp{
+    margin-top: 14px;
+width: 19em;
+padding: 6px 6px;
+    background-color: #73895D;
+    border-radius: 22px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color:white;
+}
+
+.footerIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerIcons span{
+    padding-right: 6px;
+    
+}
+
+@media (min-width:768px){
+    body {
+        background-color: rgba(233, 248, 229, 1);
+        margin-top: 0;
+        margin-right: 0;
+       overflow-y: hidden;
+        
+    }
+    .container{
+        height: 100%;
+    
+       
+    }
+    .imgContainer img{
+    position: fixed;
+    left:0;
+    height: 80vh;
+    object-fit: fill;
+    margin-left: 90px;
+    }
+    .formContainer label{
+        text-align: left;  
+       }
+    .modal {
+        height:100vh;
+        background-color: white;
+        width:50%;
+        margin-left: 50%;  
+       border-top-left-radius: 18px;
+       border-bottom-left-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+      padding-top: 20px;
+    }
+    .signUp{
+      width: 94%;
+        border-radius: 12px ;
+        margin-top: 40px;
+    }
+    .formContainer form{
+        width:75%;
+    
+    }
+    .formContainer input{
+        border-radius: 10px ;
+        width:75%;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+   
+  
+}
+
+
+
+
+
+
